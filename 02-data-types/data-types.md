@@ -77,10 +77,11 @@ print(are_coming)
 
 ## Type Checking in Python
 ```
-x = 25
-y = "Hello"
-z = 3.14
-a = 10+20J
+age = 20          
+price = 19.23         
+name = "Hanu"           
+are_coming = False
+number = 10+20J
 
 print(type(x))  # <class 'int'>
 print(type(y))  # <class 'str'>
