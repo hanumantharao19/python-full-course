@@ -1,8 +1,3 @@
-
-
-```
-
-```
 ## Basic Math Operators
 ```
 a = 10
