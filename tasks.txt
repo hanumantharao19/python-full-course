@@ -1,0 +1,3 @@
+pay current bill|Pending
+pay credit card bill|Pending
+read every day 1 page|Pending
