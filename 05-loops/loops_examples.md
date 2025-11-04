@@ -133,7 +133,20 @@ print("Even numbers:", even_numbers)
 print("Odd numbers:", odd_numbers)
 
 ```
+# 17) least frequest character from the string
+```
+def least_frequent_char(s):
+    freq = {}
+    for ch in s:
+        freq[ch] = freq.get(ch, 0) + 1  # count occurrences
 
+    # find the character with minimum frequency
+    least_char = min(freq, key=freq.get)
+    return least_char
+
+text = "successes"
+print("Least frequent character:", least_frequent_char(text))
+```
 
 
 
