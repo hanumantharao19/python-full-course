@@ -96,4 +96,20 @@ prices = {"apple": 100, "banana": 40, "cherry": 120}
 discounted = {k: (v * 0.8 if v > 100 else v) for k, v in prices.items()}
 
 print(discounted)
+
 ```
+
+## 10) get unique values for the dictionary
+```
+my_dict = {
+    'a': [1, 2, 3],
+    'b': [2, 3, 4],
+    'c': [4, 5, 6]
+}
+
+values = set()
+for x in my_dict.values():
+    values.update(x)
+print(values)
+```
+
