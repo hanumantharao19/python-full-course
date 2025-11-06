@@ -163,6 +163,17 @@ def least_frequent_char(s):
 text = "successes"
 print("Least frequent character:", least_frequent_char(text))
 ```
+# 19) sum of the numbers which we have entered
+```
+def sum_of_numbers(numbers):
+    result = 0
+    for x in numbers:
+        result += x
+    return result
+numbers = list(map(int,input("enter numbers which you are add sum:").split()))
+result = sum_of_numbers(numbers)
+print(result)
+```
 
 
 
